@@ -12,8 +12,8 @@ const ghPagesPlugin =
 export default defineConfig({
   title: 'mas-notebook',
   favicon:
-    'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
-  logo: 'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
+    'https://raw.githubusercontent.com/Johnnyxcy/mas-notebook/main/public/assets/icon.png',
+  logo: 'https://raw.githubusercontent.com/Johnnyxcy/mas-notebook/main/public/assets/icon.png',
   outputPath: 'docs-dist',
   description: '@Chongyi Xu, 2022',
   base: process.env.NODE_ENV === 'production' ? '/mas-notebook' : '/',
